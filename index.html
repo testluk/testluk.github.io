@@ -693,12 +693,18 @@
                   <fieldset>
 
                      <div>
-                       <label>Imię: <span class="required">*</span></label>
-                       <input type="text" value="" size="35" name="contactName" required>
+                       <label for="contactName">Imię: <span class="required">*</span></label>
+                       <input type="text" value="" size="35" id="contactName" name="contactName" required>
+                     </div>
+
+                     <div>
+                       <label for="contactEmail">Email: <span class="required">*</span></label>
+                       <input type="text" value="" size="35" id="contactEmail" name="_replyto" required>
                      </div>
 
                       <!-- Imię: <input type="text" name="name"> -->
                       E-mail: <input type="email" name="_replyto">
+                      <input type="hidden" name="_next" value="index.html" />
                       <input type="submit" value="Send">
 
    					</fieldset>
