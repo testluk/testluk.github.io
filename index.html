@@ -689,36 +689,10 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="https://formspree.io/lukaszjanus18@wp.pl" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName" require>
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail" require>
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject" require>
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" require></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
+               <form action="https://formspree.io/lukaszjanus18@wp.pl" method="POST">
+                   Imię: <input type="text" name="name">
+                   E-mail: <input type="email" name="_replyto">
+                   <input type="submit" value="Send">
                </form>
 
 					</fieldset>
