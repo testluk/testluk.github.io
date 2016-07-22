@@ -690,12 +690,18 @@
 
                <!-- form -->
                <form action="https://formspree.io/lukaszjanus18@wp.pl" method="POST">
-                   Imię: <input type="text" name="name">
-                   E-mail: <input type="email" name="_replyto">
-                   <input type="submit" value="Send">
-               </form>
+                  <fieldset>
 
-					</fieldset>
+                     <div>
+                       <label for="contactName">Imię <span class="required">*</span></label>
+                       <input type="text" value="" size="35" id="contactName" name="contactName" require>
+                     </div>
+
+                      <!-- Imię: <input type="text" name="name"> -->
+                      E-mail: <input type="email" name="_replyto">
+                      <input type="submit" value="Send">
+
+   					</fieldset>
 				   </form> <!-- Form End -->
 
                <!-- contact-warning -->
